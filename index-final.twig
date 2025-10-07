@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>متجر لبانيتا</title>
+    <!-- ربط CSS الجديد -->
+    <link rel="stylesheet" href="style-new.css">
+</head>
+<body>
+
+    <!-- 1️⃣ الهيدر -->
+    {% include 'sections/header.twig' %}
+
+    <!-- 2️⃣ البنرات الرئيسية -->
+    {% include 'sections/banner1.twig' %}
+    {% include 'sections/banner2.twig' %}
+    {% include 'sections/banner3.twig' %}
+
+    <!-- 3️⃣ أقسام المنتجات -->
+    {% include 'sections/products.twig' %}
+    {% include 'sections/products-hair.twig' %}
+    {% include 'sections/products-skin.twig' %}
+    {% include 'sections/products-body.twig' %}
+    {% include 'sections/products-hogra.twig' %}
+    {% include 'sections/products-incense.twig' %}
+
+    <!-- 4️⃣ بانر بين الأقسام -->
+    {% include 'sections/section-banner.twig' %}
+
+    <!-- 5️⃣ مميزات المتجر -->
+    {% include 'sections/features.twig' %}
+
+    <!-- 6️⃣ آراء العملاء -->
+    {% include 'sections/testimonials.twig' %}
+
+    <!-- 7️⃣ الفوتر -->
+    {% include 'sections/footer.twig' %}
+
+    <!-- ربط JS الجديد لتغيير البنرات -->
+    <script src="script-new.js"></script>
+
+</body>
+</html>
