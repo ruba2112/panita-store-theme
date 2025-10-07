@@ -1,0 +1,72 @@
+/* 1️⃣ الخلفية العامة */
+body {
+    background-color: #e6f9e6; /* أخضر فاتح جدًا */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2️⃣ تلوين الأقسام */
+header, .main-banner, .features, .testimonials, footer {
+    background-color: #f0fff0; /* أخضر فاتح ثاني */
+}
+
+/* 3️⃣ حركة البانرات */
+.main-banner img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.main-banner img:hover {
+    transform: scale(1.05); /* يكبر الصورة شوي عند المرور */
+}
+
+/* 4️⃣ تصميم الأقسام الرئيسية والمنتجات */
+.products, .products-hair, .products-skin, .products-body, 
+.products-hogra, .products-incense {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+/* 5️⃣ صور المنتجات */
+.products img, .products-hair img, .products-skin img, .products-body img, 
+.products-hogra img, .products-incense img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.products img:hover, .products-hair img:hover, .products-skin img:hover, 
+.products-body img:hover, .products-hogra img:hover, .products-incense img:hover {
+    transform: scale(1.05);
+}
+
+/* 6️⃣ البانر بين الأقسام */
+.section-banner img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* 7️⃣ مميزات المتجر */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+/* 8️⃣ آراء العملاء */
+.testimonials {
+    background-color: #e0ffe0; /* أخضر فاتح ثالث */
+    padding: 30px 0;
+}
+
+/* 9️⃣ الفوتر */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
